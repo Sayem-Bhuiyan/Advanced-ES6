@@ -12,7 +12,6 @@ const friends = ['Sayem', 'Akash', 'Shajib', 'Tipu'];
 const length = friends.map(name => name.length);
 const firstLetter = friends.map(friend => friend[0]);
 
-const lastLetter = friends.map(friend => friend[(friend.length)])
 console.log(lastLetter)
 // console.log(length);
 console.log(firstLetter)
